@@ -1,6 +1,42 @@
+/*creando estilo a la el document*/
+*{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding: 0;
+}
+/*creando estilo a la barra del navegador*/
+#barra{
+	width:1300px;
+	height: 60px;
+	background-color: #E54E79;
+	padding: 2px;
+	position: fixed:
+	top: 0;
+}
+#barra #logo{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	left: 225px;
+	top:16px;
+}
+.icono{
+	float: right;
+	padding: 19px;
+	top:10px;
+	border:10px;
+}
+
+a{
+	text-decoration: none;
+	color: #EDE9E2;
+}
+
+
+
 /*
 Colors: 
-#E54E79;
+#E54E79;rosado
 #E56385;
 #00B2A9;
 #75726C;
