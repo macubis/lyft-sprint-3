@@ -150,6 +150,11 @@ a:hover{
 	font-size: 25px;
 	font-weight: bold;
 }
+.auto1{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+}
 .auto{
 	position: relative;
 	display: block;
@@ -161,11 +166,12 @@ a:hover{
 	left: 357px;
 }
 .auto1{
+	float:left;
 	color: #75726C;
 	width: 50px;
 	height: 50px;
 	position: relative;
-	top: 2px;
+	top: 8px;
 	left:20px;
 }
 .auto2{
