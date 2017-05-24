@@ -4,13 +4,23 @@
 	margin:0;
 	padding: 0;
 }
+body{
+	width: 100%;
+	height:100%;
+}
+/*dejando fijo el menu*/
+header{
+	width: 100%;
+	position:fixed;
+	z-index: 100;
+}
 /*creando estilo a la barra del navegador*/
 #barra{
 	width:100%;
 	height: 60px;
 	background-color: #E54E79;
 	padding: 2px;
-	position: fixed:
+	position: relative;:
 	top: 0;
 	z-index: 1000;
 }
@@ -28,6 +38,7 @@
 	border:10px;
 	right: 215px;
 }
+/*efectos a los enlaces*/
 a{ 
 	color:#EDE9E2;
 	text-decoration: none; 
@@ -53,6 +64,7 @@ a:hover{
 	-o-transition: all .8s linear; 
 	transition: all .8s linear; 
 }
+/*terminando efectos de los enlaces*/
 /**Terminado el navegador**/
 /**Comenzando el centro de el documento**/
 #cuerpo{
@@ -65,14 +77,14 @@ a:hover{
 }
 #foto img{
 	width: 100%;
-	position: fixed;
+	position: relative;
 	margin-top: -15px;
 }
 .dentro{
 	width: 440px;
 	background-color:#EDE9E2;
 	padding: 30px;
-	position: fixed;
+	position: relative;
 	display: inline-block;
 	margin-left:810px;
 	bottom:211px;
@@ -84,9 +96,9 @@ a:hover{
 .dentro h5{
 	color: #75726C;
 }
-.linea{
-	background-color: #EDE9E2;
-	text-decoration: overline;
+.form-control{
+	border:none;
+	border-bottom: 2px solid white;
 }
 .dentro img{
 	width: 15px;
@@ -114,10 +126,157 @@ a:hover{
 	line-height: 20px;
 }
 /**Termiando el centro**/
+/*parte final*/
+.posicionamiento{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 400px;
+	background-color:#00B2A9;
+	top:-71px;
+}
+.letra{
+	position: relative;
+	display: block;
+	width: 100%
+	height:50px;
+	background-color: white;
+	padding: 20px;
+	top: 60px;
+}
+.letra p{
+	color: #75726C;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.auto{
+	position: relative;
+	display: block;
+	width:540px;
+	height:135px;
+	background-color: white;
+	padding: 20px;
+	top: 113px;
+	left: 357px;
+}
+.auto1{
+	color: #75726C;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 2px;
+	left:20px;
+}
+.auto2{
+	color: #75726C;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 10px:
+	top:2px;
+}
+.form-control1{
+	position: relative;
+	left: -8px;
+	top: 2px;
+}
+.form-control2{
+	position: relative;
+	left: -25px;
+	top:0px;
+}
+.star{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+	background-color:#00B2A9;
+	color:white;
+	text-align: center;
+	width: 464px;
+	position: relative;
+	padding: 10px;
+	left: 23px;
+	bottom: -15px;
+	font-size: 17px;
+}
+.final{
+	position: relative;
+	width: 100%;
+	height: 243px;
+	background-color: #75726C;
+	color: #EDE9E2;
+	left: 0px;
+	top:-71px;
+}
+.cont{
+	float:left;
+	padding: 10px;
+	width: 320px;
+	height: 121px;
+	left: 353px;
+	top:22px;
+	position: relative;
+	line-height: 32px;
+}
+.cont h2{
+	font-size: 20px;
+}
+.cont p{
+	font-size: 15px;
+}
+.lista{
+	display: inline-block;
+	padding: 10px;
+	width: 320px;
+	height: 121px;
+	left: 431px;
+	top:22px;
+	position: relative;
+	line-height: 32px;
+}
+/* Realizando el footer*/
+footer{
+	width: 100%;
+	height: 90px;
+	background-color: black;
+	color: white;
+	position: relative;
+	bottom: 71px;
+}
+fa-copyright{
+	text-align: left;
+	padding: 20px;
+}
+.pie{
+	padding: 20px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 32px;
+	left:35px;
+}
+.yo{
+	padding: 20px;
+	width: 341px;
+	height: 20px;
+	position: relative;
+	top: -6px;
+	left: 456px;
+}
+.iconos{
+	width: 100px;
+	height: 46px;
+	position: relative;
+	top: -53px;
+	left: 992px;
+	font-size: 26px;
+}
 /*
 Colors: 
-#E54E79;rosado
-#E56385;
+#E54E79;rosado9
+#E56385;9
 #00B2A9;
 #75726C;
 #EDE9E2
